@@ -1,7 +1,5 @@
-raspberry-pi-siri
+Mac OS X
 =================
-
-Playing around with text-to-speech and vice versa.
 
 Usage
 -----------------
