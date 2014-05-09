@@ -24,7 +24,7 @@ if input_string:
             texts = "I have no answer for that"
         # to skip ascii character in case of error
         texts = texts.encode('ascii', 'ignore')
-        print texts
+        print texts[0:99]
     else:
         print "Sorry, I am not sure."
 else:
