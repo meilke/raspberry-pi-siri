@@ -7,7 +7,7 @@ QUESTION=$(python gettext.py $QUESTION_JSON)
 
 echo $QUESTION
 
-TRANSLATED_QUESTION=$(python translate.py $1 $2 $QUESTION)
+TRANSLATED_QUESTION=$(python3.2 translate.py $1 $2 $QUESTION)
 
 echo $TRANSLATED_QUESTION
 
